@@ -25,5 +25,6 @@ public class BookingServiceImpl implements BookingService {
 	public void consume(String message) {
 		JSONObject jsonObject = new JSONObject(message);
 		System.out.println("current message is: " + jsonObject);
+		System.out.println("made a small change in the project");
 	}
 }
