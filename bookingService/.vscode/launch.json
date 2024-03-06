@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BookingServiceApplication<bookingService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cognizant.bookingService.BookingServiceApplication",
+            "projectName": "bookingService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
